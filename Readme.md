@@ -12,7 +12,7 @@ Also a simple test in makefile is provided(run with make test)
 The purpose of tests is to check that different ways of building
 didn't affect an output of the programm.
 
-Note: $@ - current target, $^ all to the right of :, $< - first
+Note: "$@" - current target, "$^" all to the right of :, "$<" - first
 to the right of :
 
 03) Program is randomly printing redirected symbols to the top of the terminal
