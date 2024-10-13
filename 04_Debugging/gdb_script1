@@ -1,0 +1,20 @@
+
+set pagination off
+set logging file gdb.output
+set logging enabled on
+
+break 20
+command 1
+	printf "@@@ %d %d\n", m, n 
+	continue
+end
+
+break 21 if i % 5 == 0
+command 2
+	printf "@@@ i = %d\n", i
+	continue
+end
+
+run
+set logging enabled off
+quit
