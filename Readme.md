@@ -26,4 +26,4 @@ Call examples
 cal | randomize.sh 0.01
 cat simple_test | randomize.sh
 ```
-
+04) Basic example of gdb scritping and script execution from the Makefile.
